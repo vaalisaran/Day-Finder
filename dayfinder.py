@@ -13,7 +13,7 @@ def condition_check(year):#To check the year between 1800 to 2200
         return(oper)
     else:
         print("Please enter the year between 1800-2100")
-        print("Because SARAN invented me as to find only 1800-2100 centuries")
+        print("Because my creater invented me as to find only 1800-2100 centuries")
 def last(year):#To cut the last two value of the year
     d1=int(year%10)
     d2=int(year/10)
